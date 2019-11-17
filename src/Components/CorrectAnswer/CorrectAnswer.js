@@ -27,7 +27,7 @@
               <div className="modal-body">
                 {this.props.correctAnswer.map((el, key) => {
                   return (
-                    <div>
+                    <div key={key}>
                       <div>Вопрос №{key + 1}</div>
                       <div>{el.correctAnswer} </div>   {/* outputs the right answers*/}
                     </div>
