@@ -1,10 +1,4 @@
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 .clearButton {
     
     margin: 0 0 60px 30px;
